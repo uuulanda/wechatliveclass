@@ -1,0 +1,25 @@
+{
+  "name": "brigade",
+  "description": "",
+  "scripts": {
+  },
+  "env": {
+    "ERROR_PAGE_URL": {
+      "required": true
+    },
+    "SITEMAP_URL_SCHEME": {
+      "required": true
+    }
+  },
+  "formation": {
+  },
+  "addons": [],
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    },
+    {
+      "url": "heroku/python"
+    }
+  ]
+}

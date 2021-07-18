@@ -21,4 +21,5 @@ The Project Monitor pulls projects from the Code for America API. https://www.co
 
 It then loops through those and only displays the ones with test results, shown in the `commit_status` attribute. This commit status is [pulled from GitHub](https://developer.github.com/v3/repos/statuses/#list-statuses-for-a-specific-ref) once an hour.
 
-If you see you have a failing test, then you quickly go fix it, it can take up to an hour before it wil
+If you see you have a failing test, then you quickly go fix it, it can take up to an hour before it will change on the Project Monitor.
+
