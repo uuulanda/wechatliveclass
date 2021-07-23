@@ -50,4 +50,16 @@ class SitemapBlueprint(Blueprint):
 
             brigades = get_brigades()
             for brigade in brigades:
-                last_updated = datetime.fromtimestamp(brigade['properties']['las
+                last_updated = datetime.fromtimestamp(brigade['properties']['last_updated'])
+
+                for route in self.PER_BRIGADE_ROUTES:
+                    yield (
+                        route,
+                        {'brigadeid': brigade['id']},
+                        last_updated.strftime("%Y-%m-%d"),
+                        'weekly',
+                        '1.0'
+                    )
+
+
+sitemap_blueprint = SitemapBlueprint('sitemap', __name__)
