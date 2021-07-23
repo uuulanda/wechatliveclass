@@ -19,4 +19,26 @@ def detect_webpack_manifest_path(expected_path):
 def create_app():
     app = Flask(__name__, static_folder='build/public/', static_url_path='/assets')
     app.config['SECRET_KEY'] = 'sekrit!'
-    app.config['WEBPACK_MANIFEST_PATH'] = detect_webpack_manifest_path('./brigade/
+    app.config['WEBPACK_MANIFEST_PATH'] = detect_webpack_manifest_path('./brigade/build/manifest.json')
+
+    webpack = Webpack()
+    webpack.init_app(app)
+
+    if 'SERVER_NAME' in os.environ:
+        app.config['SERVER_NAME'] = os.environ['SERVER_NAME']
+    if 'SITEMAP_URL_SCHEME' in os.environ:
+        app.config['SITEMAP_URL_SCHEME'] = os.environ['SITEMAP_URL_SCHEME']
+    app.config['SITEMAP_INCLUDE_RULES_WITHOUT_PARAMS'] = True
+
+    app.register_blueprint(brigade)
+    app.register_blueprint(filters)
+    app.register_blueprint(sitemap_blueprint)
+
+    @app.errorhandler(404)
+    def page_not_found(e):
+        return render_template('404.html'), 404
+
+    return app
+
+
+from . import views # noqa:E402
