@@ -1099,4 +1099,60 @@ d="M104 -233c-55 0 -91 34 -91 83c0 45 29 83 92 138l30 26h34l-31 -32c-55 -57 -73 
     <hkern u1="&#x37;" u2="&#x40;" k="25" />
     <hkern u1="&#x37;" u2="&#x2f;" k="50" />
     <hkern u1="&#x37;" u2="&#x39;" k="10" />
-    <hkern u1="&#x37;"
+    <hkern u1="&#x37;" u2="&#x38;" k="10" />
+    <hkern u1="&#x37;" u2="&#x36;" k="20" />
+    <hkern u1="&#x37;" u2="&#x35;" k="10" />
+    <hkern u1="&#x37;" u2="&#x34;" k="50" />
+    <hkern u1="&#x37;" u2="&#x33;" k="10" />
+    <hkern u1="&#x37;" u2="&#x32;" k="10" />
+    <hkern u1="&#x37;" u2="&#x30;" k="15" />
+    <hkern u1="&#x39;" u2="&#x2f;" k="5" />
+    <hkern u1="&#x26;" u2="V" k="35" />
+    <hkern u1="&#xbf;" u2="V" k="60" />
+    <hkern u1="&#xbf;" u2="J" k="-15" />
+    <hkern u1="&#x2f;" g2="nine.osf" k="45" />
+    <hkern u1="&#x2f;" g2="eight.osf" k="35" />
+    <hkern u1="&#x2f;" g2="seven.osf" k="30" />
+    <hkern u1="&#x2f;" g2="six.osf" k="45" />
+    <hkern u1="&#x2f;" g2="five.osf" k="40" />
+    <hkern u1="&#x2f;" g2="four.osf" k="115" />
+    <hkern u1="&#x2f;" g2="three.osf" k="45" />
+    <hkern u1="&#x2f;" g2="two.osf" k="45" />
+    <hkern u1="&#x2f;" g2="one.osf" k="55" />
+    <hkern u1="&#x2f;" g2="zero.osf" k="60" />
+    <hkern u1="&#x2f;" u2="&#x2f;" k="90" />
+    <hkern u1="&#x2f;" u2="&#x39;" k="5" />
+    <hkern u1="&#x2f;" u2="&#x38;" k="20" />
+    <hkern u1="&#x2f;" u2="&#x36;" k="20" />
+    <hkern u1="&#x2f;" u2="&#x35;" k="10" />
+    <hkern u1="&#x2f;" u2="&#x34;" k="30" />
+    <hkern u1="&#x2f;" u2="&#x32;" k="10" />
+    <hkern u1="&#x2f;" u2="&#x30;" k="10" />
+    <hkern u1="&#x2f;" u2="x" k="45" />
+    <hkern u1="&#x2f;" u2="v" k="35" />
+    <hkern u1="&#x2f;" u2="q" k="75" />
+    <hkern u1="&#x2f;" u2="p" k="40" />
+    <hkern u1="&#x2f;" u2="m" k="50" />
+    <hkern u1="&#x2f;" u2="j" k="25" />
+    <hkern u1="&#x2f;" u2="Q" k="15" />
+    <hkern u1="&#x2f;" u2="J" k="85" />
+    <hkern u1="&#x28;" u2="j" k="-100" />
+    <hkern u1="&#x28;" u2="X" k="-30" />
+    <hkern u1="&#x28;" u2="V" k="-50" />
+    <hkern u1="&#x28;" u2="J" k="20" />
+    <hkern u1="[" g2="six.osf" k="10" />
+    <hkern u1="[" u2="j" k="-100" />
+    <hkern u1="[" u2="X" k="-30" />
+    <hkern u1="[" u2="V" k="-50" />
+    <hkern u1="[" u2="J" k="20" />
+    <hkern u1="&#x7b;" g2="six.osf" k="10" />
+    <hkern u1="&#x7b;" u2="j" k="-100" />
+    <hkern u1="&#x7b;" u2="X" k="-30" />
+    <hkern u1="&#x7b;" u2="V" k="-50" />
+    <hkern u1="&#x7b;" u2="J" k="20" />
+    <hkern u1="&#x40;" u2="X" k="10" />
+    <hkern u1="&#x40;" u2="V" k="10" />
+    <hkern u1="&#x40;" u2="J" k="30" />
+    <hkern u1="&#x2a;" u2="J" k="100" />
+    <hkern u1="&#xa3;" u2="&#x34;" k="5" />
+    <hkern u1="&#xa5;" u2="&
