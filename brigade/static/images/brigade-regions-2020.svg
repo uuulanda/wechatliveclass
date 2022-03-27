@@ -77,4 +77,19 @@
                     <polygon id="WI" points="193.4 57.9 196.3 58.4 199.2 57.8 206.6 54.6 209.5 52.7 211.6 51.9 213.5 53.4 212.4 54.5 210.5 57.6 209.9 59.5 210.9 60.1 212.7 59.1 213.8 58.9 216.5 59.7 217.1 60.8 218.2 61 218.8 59.9 222.8 65.2 231 66.4 239.2 68.6 241.8 69.7 254.1 72.3 255.7 74.6 259.3 75.8 261 86 262.6 87.4 264.1 88.3 263 90.6 261.2 92.2 259.1 96.9 257.8 99.3 258 101.1 259.5 101.4 260.6 99.5 262.1 98.7 262.9 96.4 264.8 94.6 267.5 90.6 271.7 84.3 272.5 83.8 272.8 84.8 272.6 87.1 269.7 93.9 267 99.6 266.5 102.8 265.9 105.4 266.7 106.7 266.5 109.4 264.6 111.8 264.1 113.6 264.7 117.2 265.3 120.6 263.8 123.2 263 126.1 262 129.2 263.1 131.6 263.7 137.7 265.3 142.2 265.1 145.2 249.2 147 231.7 148 219 148 218.3 146.5 215.4 146.1 212.8 144.8 210.5 141.1 210.2 137.5 212.2 134.6 211.7 133.2 209.6 131 208.8 127.7 208.2 120.9 206.1 118.4 199.1 113.9 195.3 108.5 191.9 107.5 189.7 104.7 186.5 104.7 183.6 101.4 183.1 94.9 183.2 91.1 184.7 88 183.9 84.8 181.4 82 183.2 76.6 188.4 72.8 190 70.9 189.8 62.8 190 60 192.4 57.2"></polygon>
                 </g>
             </g>
-            <path d="M551,587 L551,509 L673,509 L673,587 M626,509 L626,58
+            <path d="M551,587 L551,509 L673,509 L673,587 M626,509 L626,587 M551,550 L673,550 M551,588 L673,588 M589,550 L589,587" id="frames" stroke="#A9A9A9" stroke-width="2"></path>
+        </g>
+        <text id="Central" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="59" font-weight="bold" letter-spacing="-0.3" fill="#854742">
+            <tspan x="481.029" y="290">Central</tspan>
+        </text>
+        <text id="Northeast" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="59" font-weight="bold" letter-spacing="-0.3" fill="#406787">
+            <tspan x="722.696" y="208">Northeast </tspan>
+        </text>
+        <text id="South" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="59" font-weight="bold" letter-spacing="-0.3" fill="#497F3D">
+            <tspan x="638.0765" y="445">South</tspan>
+        </text>
+        <text id="West" font-family="SourceSansPro-Bold, Source Sans Pro" font-size="59" font-weight="bold" letter-spacing="-0.3" fill="#6F3A80">
+            <tspan x="185.0585" y="274">West </tspan>
+        </text>
+    </g>
+</svg>
