@@ -1,0 +1,37 @@
+@import '../core/variables';
+
+//
+// List
+//
+
+.list--inline {
+  list-style-type: none;
+  padding: 0;
+
+  li {
+    display: inline-block;
+    margin: .625rem 3rem .625rem 0;
+  }
+}
+
+.list--no-bullets {
+  list-style-type: none;
+
+  li {
+    padding-left: 0;
+  }
+}
+
+.list--expanded {
+  li {
+    margin-top: 3em;
+    margin-bottom: 3em;
+  }
+}
+
+/* Font Awesome lists (.fa-ul) */
+.fa-ul {
+  li {
+    list-style-type: none;
+  }
+}
