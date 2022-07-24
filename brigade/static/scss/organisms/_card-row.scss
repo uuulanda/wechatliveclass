@@ -1,0 +1,24 @@
+
+@import '../core/variables';
+
+//
+// Card Row
+//
+
+@media (min-width: 40em) {
+  .card-row {
+    // Only display cards in a row on wider screens
+    display: flex;
+    flex-direction: row;
+
+    .card {
+      flex: 1;
+      margin-right: 15px; // TODO: Set up some standard spacing variables
+    }
+
+    // Remove the right-margin from the last card in a row
+    &:last-child.card {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,28 @@
+
+@import '../core/variables';
+@import '../core/mixins';
+
+//
+// Page: Home
+//
+
+#map {
+  height: 100%;
+  min-height: 300px;
+  min-height: 60vh;
+  position: relative;
+  z-index: 0;
+
+  input {
+    margin: 0;
+    min-height: 0;
+  }
+
+  .leaflet-marker-icon {
+    cursor: pointer !important;
+  }
+
+  .leaflet-popup-close-button {
+    display: none;
+  }
+}

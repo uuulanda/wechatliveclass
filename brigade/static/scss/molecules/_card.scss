@@ -30,4 +30,29 @@ a.card--horizontal {
     }
 
     img {
-      width: 1
+      width: 100%;
+    }
+  }
+}
+
+.link-card .card-icon {
+  display: block;
+  margin: 1rem auto 2rem;
+  height: 70px;
+}
+
+.card-image--icon {
+  color: $color-black;
+  font-size: 44px;
+  line-height: 100px;
+  text-align: center;
+}
+
+.card-image-container {
+  margin: $card-gutter auto 0;
+  text-align: center;
+
+  img {
+    object-fit: cover;
+  }
+}
