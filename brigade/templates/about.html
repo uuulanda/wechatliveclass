@@ -1,0 +1,78 @@
+
+{% extends "base.html" %}
+{% block title %}About the Brigades{% endblock %}
+{% block description %}Code for America Brigades are volunteer groups that collaborate with local government and community partners to build new tools that help with local civic issues.{% endblock %}
+{% block subhero_title %}About the Brigade Network{% endblock %}
+{% block subhero_description %}
+<p class="lead-in-text">
+Code for America Brigades are volunteer groups that collaborate with local government and community partners to build new tools that help with local civic&nbsp;issues.
+</p>
+{% endblock %}
+
+{% block content %}
+
+<section class="slab">
+  <div class="grid-box">
+    <div class="width-one-half">
+      <h2>What are Brigades?</h2>
+      <p>We’re a national network of community organizers and technologists who are putting technology to work for the benefit of our local communities.</p>
+      <p>Our Brigades meet regularly to build, share and learn about tools to create, support, and serve the public good.</p>
+      <p>We're thousands of designers, academic researchers, data journalists, activists, policy wonks, web developers and curious citizens who want to make our city more just, equitable, transparent and delightful to live in through data, design and technology.</p>
+      <p>Come join us!</p>
+    </div>
+    <div class="width-one-half">
+      <iframe width="100%" height="315" src="//www.youtube.com/embed/mYzMl_HnEZU" frameborder="0" allowfullscreen></iframe>
+    </div>
+  </div>
+</section>
+
+<section class="slab gray-bg-slab">
+  <div class="grid-box">
+    <div class="width-one-third">
+      <img src="{{ asset_url_for('images/nac_2018.jpg') }}" alt="Picture of 2018 National Advisory Council" />
+    </div>
+    <div class="width-seven-twelfths shift-one-twelfth">
+      <h2>National Advisory Council</h2>
+      <p>The National Advisory Council (NAC) is an elected group of Brigade members that represents the Brigade network and advocates for the ideals of our community.</p>
+      <a href="{{ url_for('.national_advisory_council') }}" class="button button-outline" title="National Advisory Council">Learn about the NAC</a>
+    </div>
+  </div>
+</section>
+
+<section class="slab gray-bg-slab">
+  <div class="grid-box">
+    <div class="width-seven-twelfths">
+      <h2>National Network Team</h2>
+      <p>The Code for America Network Team is a staff team dedicated to building a movement of people making government work for the people, by the people, in the digital age. We support the nationwide Brigade Network, organize the <a href="https://www.codeforamerica.org/programs/fellowship" target="_blank">Code for America Community Fellowship</a>, and lead Code for America’s volunteer mobilization.</p>
+      <a href="{{ url_for('.network_team') }}" class="button button-outline" title="Network Team">Learn about the Network Team</a>
+    </div>
+
+    <div class="width-one-third shift-one-twelfth">
+      <img src="{{ asset_url_for('images/network-team-2021.jpg') }}" alt="Pictures of Code for America Network Team faces" />
+    </div>
+  </div>
+</section>
+
+<section class="slab">
+  <div class="grid-box">
+    <div class="width-one-half">
+    <h2>Code of Conduct</h2>
+    <p>Code for America has a Code of Conduct that applies to our activities, events, and digital forums. We do not tolerate discrimiation or harrassment of any kind.</p>
+    <a href="{{ url_for('brigade.code_of_conduct') }}" class="button button-outline">Check out our full Code of Conduct</a>
+  </div>
+  </div>
+</section>
+
+{% endblock %}
+
+{% block footer %}
+
+<div id="sponsors" class="grid-box">
+  <h3>Funders</h3>
+  <ul class="list list--inline">
+    <li><a href="https://mapbox.com" target="_blank"><img src="{{ asset_url_for('images/software_mapbox.png') }}" height="60"></a></li>
+    <li><a href="https://knightfoundation.org/" target="_blank"><img src="{{ asset_url_for('images/logo_knightfoundation.png') }}" height="60"></a></li>
+  </ul>
+</div>
+
+{% endblock %}
