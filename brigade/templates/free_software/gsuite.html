@@ -1,0 +1,28 @@
+
+{% extends "free_software.html" %}
+
+{% block logo %}
+<img src="{{ asset_url_for('images/software_gsuite.svg') }}" width="200px" />
+{% endblock %}
+
+{% block software %}
+<h2>G Suite (Google Apps for your domain)</h2>
+
+<h3>What is G Suite?</h3>
+<p>G Suite is Google’s hosted product featuring all the Google Apps you’ve come to love: Gmail, Google Drive, Google Groups, and many more.</p>
+
+<h3>What do you get?</h3>
+<p>Users of G Suite for Nonprofits receive access to all Google Apps like Gmail, Drive, and Groups (up to 30 GB of file storage). The email service can be tied to a custom domain for your Brigade.</p>
+
+<p>You will have an administrator ability to manage users and groups within your brigade.</p>
+
+<h3>How do you get access?</h3>
+<p>We can set you up as an organization underneath Code for America’s G Suite for free. Email <a href="mailto:inkinds@codeforamerica.org">inkinds@codeforamerica.org</a> to get started.</p>
+
+<p>The first step is for Code for America to become a manager of your Brigade's domain name. (If your Brigade doesn't have a domain name yet, Code for America will register one for you as part of the process.) We'll transfer your domain name to Code for America’s registrar, and we will walk you through that process by email. You will still be able to administer your domain via <a href="https://www.namecheap.com/support/knowledgebase/article.aspx/192/46/how-do-i-share-access-to-my-domain-with-other-users" target="_blank">Namecheap's Sharing feature</a>.</p>
+
+<h3>What are the expectations?</h3>
+<p>Since Code for America will be hosting your email and drive within our G Suite account, we have some expectations of how you will interact with others' web properties.</p>
+
+<p>Although we believe that accounts will be isolated from each other, we ask that you never attempt to interact with the files or domains of other users. If you find a place where you can access other brigades' files, please report it to <a href="mailto:tdooner@codeforamerica.org">tdooner@codeforamerica.org</a> immediately.</p>
+{% endblock %}

@@ -1,0 +1,45 @@
+
+{% extends "free_software.html" %}
+
+{% block logo %}
+<img src="{{ asset_url_for('images/software_meetup.png') }}" height="120" />
+{% endblock %}
+
+{% block software %}
+<h3>What is Meetup Pro?</h3>
+<p>As opposed to normal Meetup, Meetup Pro gives you a bunch of new cool data,
+options, and, most importantly, makes it possible for us to pay for your Meetup
+bill.</p>
+
+<p>You will still retain full control over your Meetup page as a co-organizer.</p>
+
+<h3>What do you get?</h3>
+<p>Code for America will pay for your Meetup, saving you $180 a year.</p>
+<p>You'll be able to host as many events as you want, and we will be able to share with you information about the attendees of your Meetup events.</p>
+
+<h3>How do you get access?</h3>
+<p>If your Brigade does not have a Meetup yet, email <a href="mailto:inkinds@codeforamerica.org">inkinds@codeforamerica.org</a> to get started.</p>
+
+<p>To transfer your existing Meetup group to Code for America, you will need to add Code for America as the "Organizer" and then we will re-add you as a "Co-Organizer".</p>
+
+<ol>
+  <li>Go to your existing Meetup group page (e.g. https://meetup.com/your-group-name).</li>
+  <li>Click the "..." (triple dot) button to the right of the red "Schedule" button.</li>
+  <li>Select "Step Down As Organizer"</li>
+  <li>To select the New Organizer, search for "brigade-info@codeforamerica.org". (If that doesn't work, try searching for "Code For America Brigade"). Check the box to the right.</li>
+  <li>Send a message to <a href="mailto:inkinds@codeforamerica.org">inkinds@codeforamerica.org</a> with the subject "Meetup Transfer for [Brigade]" and we will complete the process on our end.</li>
+</ol>
+
+<b>Important:</b> After the transfer, make sure to cancel your Meetup subscription. <b>Your subscription <em>will not</em> automatically cancel.</b>
+
+<h3>What will look different for your attendees?</h3>
+
+<p>Attendees will see a dialog like this when they RSVP to your event for the first time.</p>
+
+<img src="{{ asset_url_for('images/meetup_rsvp.png') }}" alt="RSVP Screen" width="600" />
+
+<p>Users who click the "Confirm" button will opt-in to sharing their email address with your brigade and Code for America. Users clicking the "x" instead will opt them out, and you will not receive their email.</p>
+
+<h3>How will CfA interact with your Meetup?</h3>
+<p>Users can opt-in to sharing their email address when they attend your Meetup. We’ll use addresses for those who opt-in to send occasional messages about network-wide activities. These will be limited to things like “Announcing National Day of Civic Hacking” and a once a quarter reminder about signing up for the Code for America email list to get the latest updates. We can provide you the list as well.</p>
+{% endblock %}
