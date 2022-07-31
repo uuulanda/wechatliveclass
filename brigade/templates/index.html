@@ -70,4 +70,36 @@ The Brigade Network
       <a href="{{ url_for('.priority_action_areas') }}" class="card link-card">
         <div class="card-content">
           <img src="{{ asset_url_for('images/icon_priority_action_areas.png') }}" alt="" class="card-icon" />
-          <h4>Find a 
+          <h4>Find a project</h4>
+          <p>Brigade members work on projects to improve their local communities. In particular, the Network's Priority Action Areas are the best opportunities to engage.</p>
+          <span class="button button-primary button-small">View Priority Action Areas</span>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
+
+{% block footer %}
+
+<div id="sponsors" class="grid-box">
+  <h3>Funders</h3>
+  <ul class="list list--inline">
+    <li><a href="https://newrelic.com" target="_blank"><img src="{{ asset_url_for('images/software_newrelic.png') }}" height="60"></a></li>
+    <li><a href="https://mapbox.com" target="_blank"><img src="{{ asset_url_for('images/software_mapbox.png') }}" height="60"></a></li>
+    <li><a href="https://knightfoundation.org/" target="_blank"><img src="{{ asset_url_for('images/logo_knightfoundation.png') }}" height="60"></a></li>
+  </ul>
+</div>
+
+{% endblock %}
+
+{% block js %}
+{{ super() }}
+<script src='https://api.tiles.mapbox.com/mapbox.js/v3.1.1/mapbox.js'></script>
+<link href='https://api.tiles.mapbox.com/mapbox.js/v3.1.1/mapbox.css' rel='stylesheet' />
+
+<script>
+  window.Brigade.initializeMap({{ brigades | safe }});
+</script>
+{% endblock %}
