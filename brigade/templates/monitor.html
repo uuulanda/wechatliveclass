@@ -28,4 +28,17 @@
               <span class="icon-thumbs-up">
             {% else %}
               <span class="icon-thumbs-down">
-            {% 
+            {% endif %}
+               Built {{ project.last_updated | timesince }}</span>
+          </li>
+        {% endfor %}
+        </div>
+      {% endfor %}
+    </ul>
+
+    <p><a href="https://github.com/codeforamerica/brigade/blob/master/README-Monitor.md">More info</a></p>
+  </div>
+
+</section>
+
+{% endblock %}
