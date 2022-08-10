@@ -1,0 +1,164 @@
+
+{% extends "base.html" %}
+{% block title %}Style guide{% endblock %}
+{% block subhero_title %}Brigade Website Styleguide{% endblock %}
+
+{% block content %}
+
+<section class="slab">
+  <div class="grid-box">
+    <h2>Typography</h2>
+    <h1>Heading Level 1</h1>
+    <h2>Heading Level 2</h2>
+    <h3>Heading Level 3</h3>
+    <h4>Heading Level 4</h4>
+    <h5>Heading Level 5</h5>
+  </div>
+</section>
+
+<section class="slab">
+  <div class="grid-box">
+    <h2>Layout Elements</h2>
+    <h3>In-page Navigation</h3>
+    <p>
+      Use this to create a link bar that sends the user within the page. Make
+      sure your
+      <a href="https://www.nngroup.com/articles/in-page-links/" target="_blank">
+        headings match the links that sent them
+      </a>
+      to the section!
+    </p>
+
+    <div class="slab slab--compact gray-bg-slab">
+      <div class="grid-box">
+        <nav class="in-page-nav">
+          <strong>On this page:</strong>
+          <a class="in-page-nav__link" href="#buttons">Buttons</a>
+          <a class="in-page-nav__link" href="#messages">Messages</a>
+        </nav>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slab">
+  <div class="grid-box">
+    <h2>Cards</h2>
+    <p>TODO: Upstream this into the style guide itself.</p>
+  </div>
+
+  <div class="grid-box">
+    <div class="width-one-third">
+      <h3>Action Card</h3>
+
+      <a href="#" class="card action-card">
+        <h4>Take An Action Now</h4>
+        <img src="https://v4.style.codeforamerica.org/media/images/icons/icon-gov.png" alt="" class="card-icon">
+        <p>It's never been more important to take action. Will you take action?</p>
+        <span class="card-button button button-primary button-small">Take Action</span>
+      </a>
+    </div>
+
+    <div class="width-one-third">
+      <h3>Link Card</h3>
+
+      <a href="#" class="card link-card">
+        <div class="card-content">
+          <img src="https://v4.style.codeforamerica.org/media/images/icons/icon-community.png" alt="" class="card-icon">
+          <h4>Help your community</h4>
+          <p>November 1-3: learn the skills needed to lead a digital organization.</p>
+          <span class="card-button button button-primary button-small">Volunteer now</span>
+        </div>
+      </a>
+    </div>
+
+    <div class="width-one-third">
+      <h3>Link Card with Image</h3>
+      <a href="#" class="card link-card">
+        <img src="http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/images/calfresh-landingpage.jpg" class="card-image">
+
+        <div class="card-content">
+          <h4>Help your community</h4>
+          <img src="/media/images/icons/icon-community.png" alt="" class="card-icon">
+          <p>November 1-3: learn the skills needed to lead a digital organization.</p>
+          <span class="card-button button button-primary button-small">Volunteer now</span>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="grid-box">
+    <div class="width-one-third">
+      <h3>Index Card</h3>
+
+      <a href="#" class="card index-card">
+        <div class="card-content">
+          <img src="https://v4.style.codeforamerica.org/media/images/icons/icon-gov.png" alt="" class="card-icon">
+          <p class="card-overhead">Products</p>
+          <h4 class="card-title">ClientComm: Reducing recidivism</h4>
+          <p>Keeping people out of jail by connecting them with case managers over text message.</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="width-two-thirds">
+      <h3>Horizontal Card</h3>
+      <p>(Custom addition to the Brigade website)</p>
+
+      <a href="#" class="card link-card card--horizontal">
+        <div class="card-content">
+          <h2 class="card__title">Card title</h2>
+
+          <p>
+            We're a national alliance of community organizers, developers, and designers that are putting technology to work in service of our local communities. We believe that government can work, for the people, by the people, in the digital age, if we all help.
+          </p>
+          <div class="card__action">
+            <span href="#" class="button">Card action</span>
+          </div>
+        </div>
+
+        <div class="card-image-container">
+          <img src="http://s3-us-west-1.amazonaws.com/codeforamerica-cms1/images/calfresh-landingpage.jpg" width="300">
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+<section class="slab">
+  <div class="grid-box">
+    <h2>Buttons</h2>
+    <h3>Simple button<h3>
+    <a class="button" href="#">Button Text Here!</a>
+    <h3>Button Page Separator</h3>
+    <div class="button-page-separator">
+      <div class="button-page-separator__button-container">
+        <a class="button" href="#">Button Text Here?!</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="slab">
+  <div class="grid-box">
+    <h2 id="messages">Messages</h2>
+    <h3>Simple message</h3>
+    <div class="message">
+      <div class="message__content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      </div>
+    </div>
+    <h3>Message with an icon</h3>
+    <div class="message">
+      <div class="message__icon">
+        <i class="fas fa-star"></i>
+      </div>
+      <div class="message__content">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+        consequat.
+      </div>
+    </div>
+  </div>
+</section>
+
+{% endblock %}

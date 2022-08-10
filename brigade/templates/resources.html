@@ -1,0 +1,144 @@
+
+{% extends "base.html" %}
+{% block title %}Organize a Brigade{% endblock %}
+{% block description %}These resources will help you build a sustainable civic hacking group in your community.{% endblock %}
+{% block subhero_title %}Resources{% endblock %}
+{% block subhero_description %}
+<p class="lead-in-text">Over the past five years, our community has learned a lot about what works when organizing a Brigade. We’re excited to help you build a sustainable civic hacking group in your community.</p>
+<p class="lead-in-text">Here are some resources to help you get started.</p>
+{% endblock %}
+
+{% block content %}
+<section class="slab slab--compact">
+  <div class="grid-box">
+    <div class="width-one-whole">
+      <div class="span-four grid-item">
+        <a href="https://docs.google.com/document/d/1G_v53fGyHqdZNmXkDxqhqkzT7q2TBZ9Xmh9JkWtFQ8Y/edit" class="card link-card" target="_blank" title="Playbook Google Doc view">
+          <div class="card-image--icon">
+            <i class="fas fa-book"></i>
+          </div>
+          <div class="card-content">
+            <h4>Organizer’s Playbook</h4>
+            <p>The Playbook gives practical advice and real examples on starting and running a sustainable Brigade.</p>
+            <p>It includes: guidance on hosting hack nights, building a core team, and practicing user-centered design.</p>
+
+            <div class="card-link">View Playbook <i class="fas fa-xs fa-external-link-alt"></i></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="span-four grid-item">
+        <a href="{{ url_for('.code_of_conduct') }}" class="card link-card">
+          <div class="card-image--icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <div class="card-content">
+            <h4>Code of Conduct</h4>
+            <p>Lay the foundation to create a safe space at your Brigade event.</p>
+            <div class="card-link">Adapt our Code of Conduct</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="span-four grid-item">
+        <a href="{{ url_for('brigade.financial_administration') }}" class="card link-card">
+          <div class="card-image--icon">
+            <i class="fas fa-dollar-sign"></i>
+          </div>
+          <div class="card-content">
+            <h4>Financial Administration</h4>
+            <p>Whether your Brigade is looking to raise money, spend it, sign a contract, or something else, look here for resources to learn how to do it.</p>
+            <div class="card-link">Learn about Financial Administration</div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="grid-box">
+    <div class="width-one-whole">
+      <div class="span-four grid-item">
+        <a href="{{ url_for('.free_software_index') }}" class="card link-card">
+          <div class="card-image--icon">
+            <i class="fas fa-laptop"></i>
+          </div>
+          <div class="card-content">
+            <h4>Software for Brigades</h4>
+            <p>Learn about the software that vendors have donated for Brigades to use.</p>
+            <div class="card-link">Explore Software</div>
+          </div>
+        </a>
+      </div>
+
+      <div class="span-four grid-item">
+        <a href="http://c4a.me/brigades" class="card link-card" target="_blank">
+          <div class="card-image--icon">
+            <i class="far fa-address-book"></i>
+          </div>
+          <div class="card-content">
+            <h4>Brigade Contact Directory</h4>
+            <p>Want to reach out to a particular Brigade? Use the Brigade Directory to find their contact details.</p>
+            <div class="card-link">View Directory <i class="fas fa-xs fa-external-link-alt"></i></div>
+          </div>
+        </a>
+      </div>
+
+      <div class="span-four grid-item">
+        <a href="https://discourse.codeforamerica.org/c/announcements/webinars" class="card link-card" target="_blank">
+          <div class="card-image--icon">
+            <i class="fas fa-video"></i>
+          </div>
+          <div class="card-content">
+            <h4>Workshop and Event Videos</h4>
+            <p>Watch recordings from events and workshops to learn from other brigade members.</p>
+            <div class="card-link">Watch Videos <i class="fas fa-xs fa-external-link-alt"></i></div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="slab slab--compact">
+  <div class="grid-box">
+    <div class="width-seven-twelfths">
+      <h3>Other links</h3>
+      <p>You may also find these related links helpful:</p>
+      <ul>
+        <li><strong><a href="https://discourse.codeforamerica.org" target="_blank">Code for America Network Discourse</a></strong> – An online message board for Brigade members and captains to share knowledge.</li>
+        <li><strong><a href="https://www.codeforamerica.org/fellowship" target="_blank">Community Fellowship</a></strong> – The Community Fellowship program pairs local Brigade talent with government to improve services for vulnerable people they serve.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<div class="slab slab--compact">
+  {# spacer #}
+</div>
+
+<div class="slab slab--compact gray-bg-slab">
+  <div class="grid-box">
+    <div class="width-one-third">
+      <div class="message">
+        <div class="message__icon">
+          <i class="fas fa-question-circle"></i>
+        </div>
+        <div class="message__content">
+          <strong>Notice a resource that's missing?</strong> Let us know at <a href="maitlo:brigade-info@codeforamerica.org" class="no-wrap">brigade-info@codeforamerica.org</a>
+        </div>
+      </div>
+    </div>
+    <div class="width-one-third">
+      <div class="message">
+        <div class="message__icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="message__content">
+          <strong>New to organizing?</strong> <a href="https://cfa.typeform.com/to/uxPQH6" target="_blank" title="New-to-organizing form" class="no-wrap">Tell us about yourself</a> and we'll get in touch to help you get started.
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}
