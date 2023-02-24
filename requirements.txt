@@ -1,0 +1,10 @@
+Flask
+gunicorn
+requests
+httmock
+Flask-Script
+beautifulsoup4
+flask-sitemap
+Flask-Webpack
+python-dateutil
+mock
